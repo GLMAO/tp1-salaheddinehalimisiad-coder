@@ -6,26 +6,14 @@
         <artifactId>firsttp</artifactId>
         <version>0.0.1</version>
     </parent>
-    <artifactId>timer-service-client</artifactId>
+    <artifactId>lookup</artifactId>
     <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.emp.gl</groupId>
-            <artifactId>timer-service</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.emp.gl</groupId>
-            <artifactId>lookup</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-    </dependencies>
 
     <build>
         <plugins>
